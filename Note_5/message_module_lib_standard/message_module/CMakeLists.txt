@@ -22,6 +22,11 @@ set_target_properties(test_message PROPERTIES
     CMAKE_CXX_STANDARD_REQUIRED True
 )
 
+set_target_properties(test_message PROPERTIES
+    DEBUG_POSTFIX "_debug"
+    RELEASE_POSTFIX "_release"
+)
+
 install(TARGETS test_message
         EXPORT message_export_target
         RUNTIME DESTINATION "bin"
