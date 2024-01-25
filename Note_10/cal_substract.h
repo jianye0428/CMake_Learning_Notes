@@ -1,0 +1,5 @@
+#ifndef CALCULATE_SUBSTRACT_HEADER
+#define CALCULATE_SUBSTRACT_HEADER
+
+float Substract(float a, float b);
+#endif // ! CALCULATE_SUBSTRACT_HEADER
